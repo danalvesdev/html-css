@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor1: rgb(51, 109, 51);
+    --cor2: rgb(12, 211, 45);
+}
+
+body{
+    background-color: grey;
+    font-family: Arial, Helvetica, serif;
+}
+
+main{
+    background-color: white;
+    min-width: 280px;
+    max-width: 900px;
+    margin: auto;
+    border-radius: 10px;
+    text-align: justify;
+    text-indent: 15px;
+}
+
+main h1{
+    text-align: center;
+    margin: 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: var(--cor1);
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+footer{
+    text-align: center;
+    margin: 10px;
+    color: white;
+}
+
+strong{
+    color: var(--cor2);
+}

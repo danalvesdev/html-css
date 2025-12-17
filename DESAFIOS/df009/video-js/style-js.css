@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    color: #F4E04D;
+    font-size: 50px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background-color: rgb(27, 27, 27);
+
+}
+
+.botao{
+    text-align: center;
+}
+
+.veja{
+    text-align: center;
+}
