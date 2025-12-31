@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            margin: 0 auto;
+            width: 400px;
+            border-collapse: separate;
+        }
+
+        td{
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        td.linha{
+            background-color: lightgray;
+        }
+
+        td.estado{
+            background-color: lightskyblue;
+        }
+
+        td.pais{
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha primeira tabela</h1>
+    <!--
+    HIERARQUIA DE TABELAS (SIMPLES)
+    TABLE = tabela
+        TABLE ROW = linha da tabela (tr)
+            TABLE HEADER = cabeçalho da tabela (th)
+            TABLE DATA = dado da tabela (td)
+    -->
+    <table>
+        <th>CIDADE</th>
+        <th>ESTADO</th> 
+        <th>PAÍS</th>
+
+        <tr>
+            <td class="linha">PAULO AFONSO</td>
+            <td class="estado">BAHIA</td>
+            <td class="pais">BRASIL</td>
+        </tr>
+
+        <tr>
+            <td class="linha">CUSTÓDIA</td>
+            <td class="estado">PERNAMBUCO</td>
+            <td class="pais">BRASIL</td>
+        </tr>
+
+        <tr>
+            <td class="linha">SERRA TALHADA</td>
+            <td class="estado">PERNAMBUCO</td>
+            <td class="pais">BRASIL</td>
+        </tr>
+
+        <tr>
+            <td class="linha">IBIMIRIM</td>
+            <td class="estado">PERNAMBUCO</td>
+            <td class="pais">BRASIL</td>
+        </tr>
+    </table>
+</body>
+</html>
